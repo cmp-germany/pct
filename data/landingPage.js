@@ -9,7 +9,7 @@ window.contentLandingPage = [
     },
     pictures: {
       background: {
-        src: "gfx/landing-page/bild1.jpg",
+        src: "gfx/landing-page/bild3.jpg",
         positionX: "100%",
         positionY: "50%"
       },
