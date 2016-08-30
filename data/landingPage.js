@@ -1,49 +1,26 @@
 window.contentLandingPage = [
   { module: "TitleWithRegisterForm",
     contents: {
-      title: "Treten Sie jetzt mit der Kölner Gründerszene in Kontakt!",
+      title: "Vernetzen Sie innerhalb Ihrer Stadt oder Kommune Ihre Unternehmen miteinander.",
       text:
-        "Werden Sie Teil der Startup Szene und treten Sie einem internationalem Portal bei. Hier finden Sie alle Möglichkeiten, die Sie für Ihr aufstrebendes Unternehmen brauchen: Kommunizieren Sie mit Gleichgesinnten, tauschen Sie Ihr Wissen aus, finden Sie Ihre Kunden und entdecken Sie die Finanzierungsmöglichkeiten, die Ihrer Geschäftsidee den nötigen Boost verleihen.",
-      formTitle: "Kostenlos registrieren und ein Jahr unverbindlich testen.",
+        "PCT bietet den Kommunen den Eintritt in die digitale Welt.",
       buttonAdditionalText: 'Per Klick auf "Jetzt Mitglied werden" stimmen Sie unseren AGB und Datenschutzrichtlinien zu.',
       buttonText: "Jetzt Mitglied werden"
     },
     pictures: {
       background: {
-        src: "gfx/landing-hintergrund.jpg",
+        src: "gfx/landing-page/bild1.jpg",
         positionX: "100%",
         positionY: "50%"
       },
       motiv: {
-        src: "gfx/flieger-junge.png"
+        src: ""
       }
     },
     inputFields: [
       {
         inputType: "text",
-        label: "Name des Unternehmens"
-      },
-      {
-        inputType: "select",
-        options: [
-          "Kategorie 1",
-          "Kategorie 2",
-          "Kategorie 3",
-          "Kategorie 4"
-        ]
-      },
-      {
-        inputType: "select",
-        options: [
-          "Branche 1",
-          "Branche 2",
-          "Branche 3",
-          "Branche 4"
-        ]
-      },
-      {
-        inputType: "text",
-        label: "Benutzername"
+        label: "Name"
       },
       {
         inputType: "email",
@@ -62,8 +39,8 @@ window.contentLandingPage = [
   { module: "KeyFeatures",
     features: [
       {
-        title: "Firmenprofil anlegen",
-        text: "Zeigen Sie, was Sie unverwechselbar macht. Legen Sie ein Firmenprofil an, das Ihre Angebote und Leistungen beschreibt und stellen Sie sich und Ihre Mitarbeiter den anderen Plattformmitgliedern vor.",
+        title: "City Marketing",
+        text: "Steigen Sie in eine neue Form des digitalen Marketings ein. Kommunizieren Sie direkt mit Unternehmen oder publizieren Sie sich über Ihre eigene Stadtpräsenz auf unserer Plattform.",
         icon: "business",
         button: {
           text: "Jetzt registrieren",
@@ -84,7 +61,7 @@ window.contentLandingPage = [
   { module: "SlideStatement",
     title: "Wir vernetzen Know-how. Schnell, sicher, erfolgreich.",
     background: {
-      src: "gfx/fotolia_110376588.jpg",
+      src: "gfx/landing-page/bild2.jpg",
       positionX: "90%",
       positionY: "50%"
     }
@@ -93,38 +70,38 @@ window.contentLandingPage = [
     cards: [
       {
         type: "people",
-        title: "Köln: Top Lage, perfekte Logistik",
-        text: "Köln liegt als viertgrößte Stadt Deutschlands optimal erreichbar im Zentrum eines enormen Absatzmarktes: In einem Radius von nur 100km leben rund 17 Millionen Menschen.",
-        url: "http://startupregion.koeln/infrastructure.html",
+        title: "Digitale Stadtplattform",
+        text: "Unser Konzept einer übergreifendenen Stadtplattform, bietet allen Städten die Möglichkeit mit bestehenden und neuen Unternehmen den Kontakt zu halten.",
+        url: "",
         picture: "gfx/landing-page/fotolia_82266608.jpg"
       },
       {
         type: "people",
-        title: "Stadt Köln",
-        text: "Für den Erfolg sind nicht nur wirtschaftliche Faktoren wichtig: das ganze Umfeld muss passen. Wie in Köln, der Weltstadt mit Tempo und Herz.",
-        url: "http://www.stadt.koeln/",
+        title: "Städteapplikationen",
+        text: "Profitieren Sie von der Möglichkeit Ihre bestehenden Stadtapplikationen in eine Plttform zu integrieren. Virtuelle Stadtrundgänge, Touristenführer und Onlineshops - jetzt auf einer Plattform",
+        url: "",
         picture: "gfx/landing-page/fotolia_93025626.jpg"
       },
       {
         type: "people",
-        title: "Köln und Industrie",
-        text: "Die produktive Mischung aus großen, mittleren und kleinen heimischen und ausländischen Unterneh­men zeigt das große Potential der Wirtschaftsregion Köln.",
-        url: "http://startupregion.koeln/industry.html",
+        title: "Passiv & Active Matching",
+        text: "Finden Sie das was fehlt. Suchen Sie konkret oder lassen Sie sich passende Vorschläge machen.",
+        url: "",
+        picture: "gfx/karten/match.jpg"
+      },
+      {
+        type: "people",
+        title: "Ihr digitaler Bürgerservice",
+        text: "Integrieren Sie Ihren Bürservice digital. Pflegen Sie schnell und einfach Ihre Unternehmensbeziehungen.",
+        url: "",
+        picture: "gfx/karten/touch.jpg"
+      },
+      {
+        type: "people",
+        title: "Internationale Kooperationen",
+        text: "Unternehmen aus einer Kommune, können jetzt ganz einfach von bestehenden Beziehung zu weiteren Kommunen profitieren - weltweit.",
+        url: "",
         picture: "gfx/landing-page/fotolia_71453007.jpg"
-      },
-      {
-        type: "people",
-        title: "NetCologne - Digitales Köln",
-        text: "Nicht nur die Versorgung mit schnellem Internet im Büro, sondern auch die Möglichkeit mobil sein Business optimal zu führen sind essentiell. Kölns TK-Anbieter NetCologne bietet beides.",
-        url: "https://www.netcologne.de/geschaeftskunden",
-        picture: "gfx/landing-page/logo-netcologne.png"
-      },
-      {
-        type: "people",
-        title: "IHK Köln - Starker Partner für Startups",
-        text: "Ob Existenzgründung, Unternehmenswachstum oder Unternehmensnachfolger: Die IHK Köln berät, hilft und informiert.",
-        url: "https://www.ihk-koeln.de/Existenzgruendung.AxCMS?ActiveID=1671",
-        picture: "gfx/landing-page/ihk-k.png"
       },
       {
         type: "register",
@@ -135,7 +112,7 @@ window.contentLandingPage = [
     ]
   },
   { module: "SlideStatement",
-    title: "Vernetzen Sie sich mit dem Erfolg.",
+    title: "Schaffen Sie ad-hoc Vermarktungsmöglichkeiten für die Unternehmen in Ihrem Wirkungsbereich.",
     background: {
       src: "gfx/Fotolia_101170696_L-1920.jpg",
       positionX: "55%",
