@@ -71,7 +71,7 @@ window.contentLandingPage = [
       {
         type: "people",
         title: "Digitale Stadtplattform",
-        text: "Unser Konzept einer übergreifendenen Stadtplattform bietet allen Städten die Möglichkeit mit bestehenden und neuen Unternehmen den Kontakt zu halten.",
+        text: "Unser Konzept einer übergreifenden Stadtplattform bietet allen Städten die Möglichkeit mit bestehenden und neuen Unternehmen den Kontakt zu halten.",
         url: "",
         picture: "gfx/landing-page/fotolia_82266608.jpg"
       },
