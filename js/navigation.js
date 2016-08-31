@@ -81,3 +81,13 @@ function navbar() {
 function tab() {
 
 }
+
+
+$(document).ready(function() {
+
+  // Initialize the plugin
+  $('#invite-overlay').popup({
+    transition: 'all 0.3s'
+  });
+
+});
