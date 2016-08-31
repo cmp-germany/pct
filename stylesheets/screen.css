@@ -8713,7 +8713,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 }
 
 /* line 137, ../sass/_landing-page.sass */
-.profile-card__innerDiv {
+.profile-card__innerDiv, .MembersItem {
   padding: 10px;
   border-top: 1px solid #d0007b;
   border-left: 1px solid #d0007b;
@@ -9613,23 +9613,7 @@ body a:hover {
   color: #4DDD35;
 }
 
-/* line 82, ../sass/_profile-about.sass */
-.profile-tabs--profile-navigation {
-  padding: 5px 0px !important;
-  text-align: center;
-  display: flex;
-}
-/* line 86, ../sass/_profile-about.sass */
-.profile-tabs--profile-navigation .material-icons {
-  display: none;
-}
-/* line 88, ../sass/_profile-about.sass */
-.profile-tabs--profile-navigation .profile-tabs__tab {
-  font-size: 16px;
-  padding: 10px 5px;
-}
-
-/* line 92, ../sass/_profile-about.sass */
+/* line 84, ../sass/_profile-about.sass */
 .profile-tabs {
   margin-top: 20px;
   padding-left: 20px;
@@ -9637,12 +9621,10 @@ body a:hover {
   border: solid 1px #eee;
 }
 
-/* line 98, ../sass/_profile-about.sass */
+/* line 90, ../sass/_profile-about.sass */
 .profile-tabs__tab {
   display: inline-block;
-  vertical-align: middle;
   font-size: 18px;
-  overflow: hidden;
   color: #777;
   padding-right: 20px;
   padding-top: 10px;
@@ -9650,17 +9632,17 @@ body a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 111, ../sass/_profile-about.sass */
+/* line 100, ../sass/_profile-about.sass */
 .profile-tabs__tab a {
   color: inherit;
 }
 
-/* line 114, ../sass/_profile-about.sass */
+/* line 103, ../sass/_profile-about.sass */
 .profile-tabs__tab--active {
   color: #333;
 }
 
-/* line 118, ../sass/_profile-about.sass */
+/* line 107, ../sass/_profile-about.sass */
 .profile-infos {
   position: relative;
   margin-top: 20px;
@@ -9671,31 +9653,111 @@ body a:hover {
   border: solid 1px #eee;
 }
 
-/* line 128, ../sass/_profile-about.sass */
+/* line 117, ../sass/_profile-about.sass */
 .profile-infos__form--read .profile-infos__input {
   display: none;
 }
 
-/* line 132, ../sass/_profile-about.sass */
+/* line 121, ../sass/_profile-about.sass */
 .profile-infos__form--write .profile-infos__read {
   display: none;
 }
 
-/* line 135, ../sass/_profile-about.sass */
+/* line 124, ../sass/_profile-about.sass */
 .profile-infos__read {
   margin-top: 7px;
 }
 
-@media(max-width:767px) {
-  /* line 144, ../sass/_profile-about.sass */
-  .profile-tabs--profile-navigation .profile-tabs__label {
-    display: none;
-  }
-  /* line 146, ../sass/_profile-about.sass */
-  .profile-tabs--profile-navigation .material-icons {
-    display: block;
-  }
+/* line 14, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.profile-infos__members:before, .profile-infos__members:after {
+  content: " ";
+  display: table;
 }
+/* line 19, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.profile-infos__members:after {
+  clear: both;
+}
+
+/* line 139, ../sass/_profile-about.sass */
+.MembersItem {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: auto;
+  position: relative;
+}
+/* line 14, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.MembersItem:before, .MembersItem:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.MembersItem:after {
+  clear: both;
+}
+
+/* line 147, ../sass/_profile-about.sass */
+.MembersAvatar, .MembersName, .MembersPosition, .MembersEmail, .MembersPhone {
+  float: left;
+}
+
+/* line 151, ../sass/_profile-about.sass */
+.MembersAvatar {
+  margin-right: 10px;
+}
+/* line 154, ../sass/_profile-about.sass */
+.MembersAvatar .avatar {
+  width: 80px;
+  height: 80px;
+}
+
+/* line 158, ../sass/_profile-about.sass */
+.MembersName {
+  width: calc(70% - 90px);
+}
+
+/* line 161, ../sass/_profile-about.sass */
+.MembersPosition {
+  width: calc(30% - 90px);
+}
+
+/* line 164, ../sass/_profile-about.sass */
+.MembersEmail {
+  width: calc(100% - 90px);
+}
+
+/* line 167, ../sass/_profile-about.sass */
+.MembersPhone {
+  width: calc(100% - 90px);
+}
+
+/* line 170, ../sass/_profile-about.sass */
+.MembersContact {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+/* line 175, ../sass/_profile-about.sass */
+.MembersContact * {
+  float: left;
+}
+/* line 178, ../sass/_profile-about.sass */
+.MembersContact ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* line 181, ../sass/_profile-about.sass */
+.MembersContact li {
+  list-style: none;
+}
+/* line 184, ../sass/_profile-about.sass */
+.MembersContact .CompanyMembersChatIcon {
+  margin-left: 5px;
+}
+
 /* line 1, ../sass/_profile-wall.sass */
 .button-block {
   font-size: 16px;

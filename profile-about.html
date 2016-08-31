@@ -66,7 +66,6 @@
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
           }
-
           var userId = getParameterByName('userId');
           var profileData = {};
           if (userId) {
@@ -74,7 +73,6 @@
           } else {
             profileData = users["company-of-imagination"];
           }
-
         </script>
         <script type="text/babel" src="react/profile-about.js" charset="utf-8"></script>
       </div>

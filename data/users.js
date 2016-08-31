@@ -69,6 +69,19 @@ var users = {
       }
     ]
   },
+  "wolfgang-adams": {
+    "id": "wolfgang-adams",
+    "name": "Wolfgang Adams",
+    "wallpaper": "gfx/wallpaper/wallpaper-wolfgang-adams.jpg",
+    "profileImage": "gfx/profilbilder/profilbild-adams.jpg",
+    "isCompanyProfile": false,
+    "street": "Alte Brücke 6",
+    "zip": "51570",
+    "city": "Windeck",
+    "website": "",
+    "timezone": "MESZ",
+    "isOnline": false
+  },
 
 
   "stadt-koeln-startercenter": {
@@ -201,7 +214,7 @@ var users = {
 
   "me": {
     "id": "me",
-    "name": "Alex Untereich",
+    "name": "Wolfgang Admas",
     "wallpaper": "",
     "profileImage": "gfx/profilbilder/p4.jpg",
     "isCompanyProfile": false,
