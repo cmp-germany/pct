@@ -3,7 +3,7 @@ window.contentLandingPage = [
     contents: {
       title: "Vernetzen Sie innerhalb Ihrer Stadt oder Kommune Ihre Unternehmen miteinander.",
       text:
-        "PCT bietet den Kommunen den Eintritt in die digitale Welt.",
+        "BCT bietet den Kommunen den Eintritt in die digitale Welt.",
       buttonAdditionalText: 'Per Klick auf "Jetzt Mitglied werden" stimmen Sie unseren AGB und Datenschutzrichtlinien zu.',
       buttonText: "Jetzt Mitglied werden"
     },
@@ -71,20 +71,20 @@ window.contentLandingPage = [
       {
         type: "people",
         title: "Digitale Stadtplattform",
-        text: "Unser Konzept einer übergreifendenen Stadtplattform, bietet allen Städten die Möglichkeit mit bestehenden und neuen Unternehmen den Kontakt zu halten.",
+        text: "Unser Konzept einer übergreifendenen Stadtplattform bietet allen Städten die Möglichkeit mit bestehenden und neuen Unternehmen den Kontakt zu halten.",
         url: "",
         picture: "gfx/landing-page/fotolia_82266608.jpg"
       },
       {
         type: "people",
         title: "Städteapplikationen",
-        text: "Profitieren Sie von der Möglichkeit Ihre bestehenden Stadtapplikationen in eine Plttform zu integrieren. Virtuelle Stadtrundgänge, Touristenführer und Onlineshops - jetzt auf einer Plattform",
+        text: "Profitieren Sie von der Möglichkeit Ihre bestehenden Stadtapplikationen in eine Plattform zu integrieren. Virtuelle Stadtrundgänge, Touristenführer und Onlineshops - jetzt auf einer Plattform",
         url: "",
         picture: "gfx/landing-page/fotolia_93025626.jpg"
       },
       {
         type: "people",
-        title: "Passiv & Active Matching",
+        title: "Passive & Active Matching",
         text: "Finden Sie das was fehlt. Suchen Sie konkret oder lassen Sie sich passende Vorschläge machen.",
         url: "",
         picture: "gfx/karten/match.jpg"
@@ -92,14 +92,14 @@ window.contentLandingPage = [
       {
         type: "people",
         title: "Ihr digitaler Bürgerservice",
-        text: "Integrieren Sie Ihren Bürservice digital. Pflegen Sie schnell und einfach Ihre Unternehmensbeziehungen.",
+        text: "Integrieren Sie Ihren Bürgerservice digital. Pflegen Sie schnell und einfach Ihre Unternehmensbeziehungen.",
         url: "",
         picture: "gfx/karten/touch.jpg"
       },
       {
         type: "people",
         title: "Internationale Kooperationen",
-        text: "Unternehmen aus einer Kommune, können jetzt ganz einfach von bestehenden Beziehung zu weiteren Kommunen profitieren - weltweit.",
+        text: "Unternehmen aus einer Kommune können jetzt ganz einfach von bestehenden Beziehungen zu weiteren Kommunen profitieren - weltweit.",
         url: "",
         picture: "gfx/landing-page/fotolia_71453007.jpg"
       },
