@@ -45,6 +45,20 @@ var content = {
     resultGruppen : []
   },
 
+  campusPartner : {
+    searchTitle : "Campus Partner",
+    resultPersonen : [],
+    resultUnternehmen : [
+      {
+        name : 'GreenGate AG',
+        bild : 'gfx/profilbilder/green-gate-logo.jpg',
+        onlineStatus : false,
+        profil : 'profile-about.html?userId=green-gate'
+      }
+    ],
+    resultGruppen : []
+  },
+
   institutionelleInvestoren : {
     searchTitle : "Institutionelle Investoren",
     resultPersonen : [],
