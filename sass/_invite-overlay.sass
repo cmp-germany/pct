@@ -1,0 +1,25 @@
+
+// some hacks for the transition
+#invite-overlay
+  transform: scale(0.8)
+
+.popup_visible #invite-overlay
+  transform: scale(1)
+
+
+.invite-overlay
+  @extend .wall-widget
+
+.module-header
+  +module-header
+
+.module-header__icon
+  +module-header__icon
+
+.module-header__heading
+  +module-header__heading
+
+.module-form
+
+  &__control
+    background-color: white
